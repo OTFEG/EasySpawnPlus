@@ -1,0 +1,29 @@
+name: EasySpawnPlus
+main: net.otfeg.easyspawnplus.EasySpawnPlus
+version: 1.7.5
+commands:
+  spawn:
+    description: Teleports you to spawn
+    usage: /spawn
+    permission: easyspawnplus.spawn
+    permission-message: You don't have <permission>
+  bed:
+    description: Teleports you to your bed
+    usage: /bed
+    permission: easyspawnplus.bed
+    permission-message: You don't have <permission>
+  setspawn:
+    description: Sets spawn location
+    usage: /setspawn
+    permission: easyspawnplus.setspawn
+    permission-message: You don't have <permission>
+permissions:
+  easyspawnplus.spawn:
+    description: Teleports you to spawn
+    default: true
+  easyspawnplus.bed:
+    description: Teleports you to your bed
+    default: true
+  easyspawnplus.setspawn:
+    description: Sets spawn location
+    default: op
